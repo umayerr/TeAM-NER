@@ -1,8 +1,8 @@
 const webpack = require("webpack");
 
 module.exports = {
-  publicPath: "/ner-annotator/",
-  outputDir: "./docs/",
+  publicPath: "/TeAM-NER/",
+  // outputDir: "./docs/",
 
   pluginOptions: {
     quasar: {
