@@ -27,8 +27,8 @@ class TokenManager {
     if (currentAnnotation != undefined) {
       // reset prevoius annotation state
       for (let i = 0; i < currentAnnotation.entities.length; i++) {
-        var start = currentAnnotation.entities[i][0];
-        var end = currentAnnotation.entities[i][1];
+        var start = currentAnnotation.entities[i][1];
+        var end = currentAnnotation.entities[i][2];
         var entityName = currentAnnotation.entities[i][3];
         console.log("ENTITYNAME: ",entityName, currentAnnotation.entities[i]);
         var entityClass = this.classes.find(c => c.name.toUpperCase() === entityName.toUpperCase());        
