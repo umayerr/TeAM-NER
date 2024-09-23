@@ -41,7 +41,7 @@ export default {
 
               const newHistoryEntry = [
                 state,
-                new Date().toISOString(),
+                new Date().toLocaleString(),
                 annotator,
                 entity[3], // The class or label from the entity
               ];
