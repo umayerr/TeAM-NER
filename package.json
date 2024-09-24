@@ -27,7 +27,7 @@
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@tauri-apps/cli": "^1.0.0-beta.10",
+    "@tauri-apps/cli": "^1.6.2",
     "@vue/cli-plugin-babel": "~5.0.8",
     "@vue/cli-service": "^5.0.8",
     "@vue/compiler-sfc": "^3.2.47",
@@ -36,7 +36,7 @@
     "sass": "^1.62.0",
     "sass-loader": "^13.2.2",
     "vue-cli-plugin-quasar": "^5.0.2",
-    "vue-cli-plugin-tauri": "~1.0.0-beta.6"
+    "vue-cli-plugin-tauri": "^1.0.0"
   },
   "browserslist": [
     "> 1%",
